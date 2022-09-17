@@ -1,0 +1,47 @@
+.footer-container{
+    width: 100%;
+
+    .footer-logo-container{
+        display: flex;
+        align-items: center;
+
+        .footer-logo-images-holder{
+            height: 34px;
+            width: 26px;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .footer-logo-text{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 43.25px;
+            line-height: 34px;
+            // display: flex;
+            align-items: center;
+            color: #0A2640;
+            margin-left: .5rem;
+        }
+    }
+
+    .careers__hiring{
+        padding: 6px 14px;
+        gap: 10px;
+        width: 72px;
+        height: 30px;
+        background: #65E4A3;
+        border-radius: 120px;
+    }
+
+    body, td, tfoot, th, thead, tr {
+        border-color: transparent;
+    }
+
+    td{
+        gap: 3rem;
+        width: 200px;
+    }
+}

@@ -1,0 +1,33 @@
+.header-container{
+    height: 15vh;
+    width: 100vw;
+    background: #65E4A3;
+    
+    .logo-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 42px;
+
+        .logo-images-holder{
+            height: 34px;
+            width: 26px;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .logo-text{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 43.25px;
+            line-height: 34px;
+            display: flex;
+            align-items: center;
+            color: #0A2640;
+            margin-left: .5rem;
+        }
+    }
+}
