@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Table } from 'react-bootstrap'
+import { Button, Container, Table } from 'react-bootstrap'
 import Logo from '../../../assets/images/Logo Shape.png'
 
 import './footer.scss'
@@ -36,7 +36,7 @@ export default function Footer() {
                 </tr>
                 <tr>
                     <td>Products</td>
-                    <td>Careers <span className='careers__hiring'>Hiring</span></td>
+                    <td>Careers <span className=''> <Button variant='success' className='careers__hiring' > Hiring</Button></span></td>
                     <td>Products</td>
                 </tr>
                 <tr>
