@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container, Table } from 'react-bootstrap'
 import TeamCard, { TeamCard2 } from '../../Component/TeamCard'
 import './about.scss'
 
@@ -59,7 +60,45 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      <div id="blog">Our blog</div>
+      <div id="blog">
+        <Container>
+          <div className="blog__container">
+            <div className="blog__head">Our blog</div>
+            <div className="blog__title">Value proposition accelerator product management venture</div>
+            <div className="blog__body">
+              <hr />
+              <div className="blog__content">
+              <Table responsive="xl">
+                <tbody>
+                  <tr>
+                    <th>We are <span style={{color:'green'}}>commited.</span></th>
+                    <td>Conversion angel investor entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration. </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                  <th>We are <span style={{color:'green'}}>responsible.</span></th>
+                    <td>Mass market iPhone buzz conversion analytics stock iteration responsive web design user experience business plan handshake. Return on investment seed round MVP backing supply chain.
+                    </td>
+                  </tr>
+                  <tr>
+                  <th>We aim for <span style={{color:'green'}}>progress.</span></th>
+                    <td>
+                    Bootstrapping rockstar first mover advantage business model canvas alpha deployment launch party beta facebook metrics gamification growth hacking customer focus. 
+                    </td>
+                  </tr>
+                </tbody>
+              </Table>
+
+              </div>
+              {/* <div className="blog__counts">
+                <TeamCard className={'team__players'} />
+              </div>
+              <TeamCard2 className={'team__players'} /> */}
+            </div>
+          </div>
+        </Container>
+      </div>
     </div>
   )
 }
