@@ -61,7 +61,7 @@ export default function AboutPage() {
         </div>
       </div>
       <div id="blog">
-        <Container>
+        <Container fluid>
           <div className="blog__container">
             <div className="blog__head">Our blog</div>
             <div className="blog__title">Value proposition accelerator product management venture</div>
