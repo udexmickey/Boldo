@@ -83,7 +83,7 @@
         display: flex;
         align-items: center;
         padding: 1rem 2rem;
-        height: 410px;
+        height: 510px;
         justify-content: center;
         flex-wrap: wrap;
 
@@ -271,6 +271,14 @@
                 width: 200px;
                 height: auto;
             }
+
+            .card-img-top2{
+                // width: 150px;
+                width: 120px;
+                height: 120px;
+                object-fit: contain;
+   
+            }
         }
 
         @media screen and (max-width: 430px) {
@@ -286,6 +294,15 @@
                 width: 100px !important;
                 height: auto;
             }
+
+            .card-img-top2{
+                // width: 150px;
+                width: 85px !important;
+                height: 80px;
+                object-fit: contain;
+                margin-right: .5rem;
+            }
+
             .card-body{
                 padding: 0%;
                 .card-title {

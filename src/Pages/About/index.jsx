@@ -1,5 +1,5 @@
 import React from 'react'
-import TeamCard from '../../Component/TeamCard'
+import TeamCard, { TeamCard2 } from '../../Component/TeamCard'
 import './about.scss'
 
 export default function AboutPage() {
@@ -55,6 +55,7 @@ export default function AboutPage() {
             <div className="team__counts">
               <TeamCard className={'team__players'} />
             </div>
+            <TeamCard2 className={'team__players'} />
           </div>
         </div>
       </div>
