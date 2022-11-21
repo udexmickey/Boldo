@@ -240,7 +240,11 @@
         justify-content: center;
         box-sizing: border-box;
         overflow: hidden;
-        padding: 2rem 1rem;
+        padding: 2rem 1rem 5rem;
+
+        .team__head{
+            text-align: center;
+        }
 
         .team__players{
             margin: 2% auto;
@@ -256,6 +260,8 @@
             display: flex;
             align-items: center;
             height: 100px;
+            text-align: center;
+            justify-content: center;
         }
         .team__body{
             max-width: 800px;
@@ -286,9 +292,6 @@
         // div:nth-child(1){
         //     margin: auto 5%;
         // }
-        .team__head{
-            text-align: center;
-        }
 
             .card-img-top{
                 width: 100px !important;

@@ -1,6 +1,12 @@
 .footer-container{
     width: 100%;
+    // padding: 5rem 0;
 
+    .td{
+        // display: none;
+        width: 300px;
+        padding-right: 2rem;
+    }
     .footer-logo-container{
         display: flex;
         align-items: center;
@@ -36,6 +42,7 @@
         border-radius: 120px;
         margin-left: 0.5rem;
         border: transparent;
+        color: currentColor;
     }
 
     body, td, tfoot, th, thead, tr {

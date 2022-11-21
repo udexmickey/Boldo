@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Container, Table } from 'react-bootstrap'
 import Logo from '../../../assets/images/Logo Shape.png'
+import Newsletter from '../../Newsletter'
 
 import './footer.scss'
 
@@ -8,7 +9,7 @@ export default function Footer() {
   return (
     <> 
     <Container className='footer-container'>
-        <div className="newsletter"></div>
+        <Newsletter />
         <Table responsive>
             <thead>
                 <tr>
@@ -29,7 +30,7 @@ export default function Footer() {
             </thead>
             <tbody>
                 <tr>
-                    <td rowSpan={3}>Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.</td>
+                    <td className='td' rowSpan={3}>Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.</td>
                     <td>Home</td>
                     <td>Home</td>
                     <td>Blog</td>
