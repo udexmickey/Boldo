@@ -1,6 +1,9 @@
-.header-container {
-  height: 10vh;
+header {
   background: #65E4A3;
+}
+
+.header-container {
+  height: 15vh;
 }
 .header-container .logo-container {
   display: flex;
@@ -25,4 +28,10 @@
   align-items: center;
   color: #0A2640;
   margin-left: 0.5rem;
+}
+@media screen and (max-width: 430px) {
+  .header-container {
+    height: auto;
+    width: 100%;
+  }
 }/*# sourceMappingURL=header.css.map */

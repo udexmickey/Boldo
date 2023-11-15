@@ -7,7 +7,7 @@ import './header.scss'
 export default function Header() {
   return (
     <Navbar expand="lg" className='header-container'> 
-        <Container fluid>
+        <Container className='header-container'>
             <Navbar.Brand href="#home">
                 <div className="logo-container">
                     <div className="logo-images-holder"> 

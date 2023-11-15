@@ -1,6 +1,10 @@
 .footer-container {
   width: 100%;
 }
+.footer-container .td {
+  width: 300px;
+  padding-right: 2rem;
+}
 .footer-container .footer-logo-container {
   display: flex;
   align-items: center;
@@ -23,12 +27,15 @@
   margin-left: 0.5rem;
 }
 .footer-container .careers__hiring {
-  padding: 6px 14px;
+  padding: 3px 14px;
   gap: 10px;
   width: 72px;
   height: 30px;
   background: #65E4A3;
   border-radius: 120px;
+  margin-left: 0.5rem;
+  border: transparent;
+  color: currentColor;
 }
 .footer-container body, .footer-container td, .footer-container tfoot, .footer-container th, .footer-container thead, .footer-container tr {
   border-color: transparent;
