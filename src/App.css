@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #0A2640;
+  --secondary-color: #777777;
+}
+
+.App {
+  color: var(--primary-color);
+  font-family: "Manrope";
+  font-style: normal;
+}/*# sourceMappingURL=App.css.map */

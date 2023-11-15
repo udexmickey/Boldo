@@ -1,0 +1,28 @@
+.header-container {
+  height: 10vh;
+  background: #65E4A3;
+}
+.header-container .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 42px;
+}
+.header-container .logo-container .logo-images-holder {
+  height: 34px;
+  width: 26px;
+}
+.header-container .logo-container .logo-images-holder img {
+  width: 100%;
+}
+.header-container .logo-container .logo-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43.25px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #0A2640;
+  margin-left: 0.5rem;
+}/*# sourceMappingURL=header.css.map */

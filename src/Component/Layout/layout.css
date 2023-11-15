@@ -1,0 +1,19 @@
+.layout-wrap {
+  position: relative;
+  min-height: 100vh;
+}
+
+.footer-wrap {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  bottom: 0px;
+}
+
+.layout {
+  position: relative;
+}
+
+.content-wrap {
+  min-height: 65dvh;
+}/*# sourceMappingURL=layout.css.map */
