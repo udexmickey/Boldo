@@ -21,6 +21,19 @@ export default function BlogSection() {
     },
   ];
 
+  // Helper function to get the last word
+  const getLastWord = (str) => {
+    const words = str.trim().split(" ");
+    return words.length > 0 ? words.pop() : "N/A";
+  };
+
+  // Helper function to remove the last word
+  const removeLastWord = (str) => {
+    const words = str.trim().split(" ");
+    words.pop(); // Remove the last word
+    return words.join(" "); // Join remaining words
+  };
+
   return (
     <div>
       <Container fluid>
@@ -37,8 +50,10 @@ export default function BlogSection() {
                   <tbody key={index}>
                     <tr>
                       <th>
-                        {row.title}
-                        <span style={{ color: "green" }}>{row.highlight}</span>
+                        {removeLastWord(row.title) + " "}
+                        <span style={{ color: "#65e4a3" }}>
+                          {" " + getLastWord(row.title)}
+                        </span>
                       </th>
                       <td>{row.content}</td>
                     </tr>
